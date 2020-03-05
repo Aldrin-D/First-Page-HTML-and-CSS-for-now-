@@ -1,0 +1,179 @@
+body{
+  background-image: url(fundo.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+
+#titulo {
+  font-family: Lobster;
+  word-spacing: 5px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  animation-name: titulo1;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  font-size: 10px;
+}
+
+@keyframes titulo1 {
+  1% {
+    font-size: 10px;
+  }
+  50% {
+    font-size: 30px;
+  }
+  100% {
+    font-size: 10px;
+  }
+}
+
+.espacoemvolta {
+  padding: 19px;
+  padding-left: 25%;
+}
+
+.espacoemvolta2 {
+  padding: 19px;
+  padding: 10%;
+}
+
+.box-1 {
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+  animation-name: animacaoborda;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animacaoborda {
+  1% {
+  background-color: red;
+  opacity: 0.5;
+  }
+  100% {
+    background-color: red;
+    opacity: 0.6;
+  }
+}
+
+.box-2 {
+border-radius: 10px;
+  font-size: 40px;
+  text-align: center;
+  background-color: red;
+  opacity: 0.5;
+  position: static;
+}
+#subtitulo {
+  font-family: Lobster;
+  opacity: 1.0;
+  font-size: 30px;
+  color: white;
+}
+
+.box-3 {
+  border-style: solid;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.7;
+  padding: 30px;
+  padding-left: 20%;
+  padding-top: 30%;
+  padding-bottom: 40%;
+}
+
+.githubfoto {
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+
+.gmailfoto {
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.linkedinfoto {
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.whatsappfoto {
+  width: 130px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.githubfoto:hover {
+    width: 200px;
+    height: 150px;
+    animation-name: icone;
+    animation-duration: 1.9s;
+    animation-fill-mode: forwards;
+  }
+
+  .gmailfoto:hover {
+      width: 200px;
+      height: 150px;
+      animation-name: icone;
+      animation-duration: 1.9s;
+      animation-fill-mode: forwards;
+    }
+
+    .linkedinfoto:hover {
+        width: 200px;
+        height: 150px;
+        animation-name: icone;
+        animation-duration: 1.9s;
+        animation-fill-mode: forwards;
+      }
+
+      .whatsappfoto:hover {
+          width: 200px;
+          height: 150px;
+          animation-name: icone;
+          animation-duration: 1.9s;
+          animation-fill-mode: forwards;
+        }
+
+
+@keyframes icone {
+  1% {
+    width: 200px;
+    height: 150px;
+  }
+  50% {
+    width: 300px;
+    height: 170px;
+  }
+  100% {
+    width: 200px;
+    height: 150px;
+
+  }
+}
+
+a {
+  text-decoration:none;
+}
