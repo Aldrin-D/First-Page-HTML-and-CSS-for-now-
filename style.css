@@ -1,8 +1,5 @@
 body{
-  background-image: url(fundo.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: static;
+  background-color: rgba(162, 51, 193, 0.91);
 }
 
 #titulo {
