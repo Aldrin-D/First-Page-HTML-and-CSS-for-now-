@@ -1,3 +1,3 @@
-# Primeira-Pagina-HTML-CSS
-Minha primeira página feita com html e css.
-Ao longo da jornada de aprendizado este projeto será atualizado até sua utilidade ser reconhecida.
+# First-Page-HTML-and-CSS-for-now-
+This is my first page with html and css elements.
+I will change the code while learn others tecnologies.

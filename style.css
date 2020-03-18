@@ -1,102 +1,26 @@
-body{
-  background-color: rgba(162, 51, 193, 0.91);
+body {
+  background-image: url(fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
 }
 
-#titulo {width: 100%;height: 100%;animation-name: titulo1;animation-duration: 5s;animation-timing-function: ease-in-out;animation-iteration-count: infinite;text-align: center;word-spacing: 5px;color: white;
+.title {
 
-  font-family: Lobster;font-size: 10px;
-  }
-
-@keyframes titulo1 {
-  1% {
-    font-size: 10px;
-  }
-  50% {
-    font-size: 30px;
-  }
-  100% {
-    font-size: 10px;
-  }
 }
 
-.espacoemvolta {
-  padding: 19px;padding-left: 25%;
-  }
+.name {
 
-.espacoemvolta2 {
-  padding: 19px;padding: 10%;
-  }
-
-.box-1 {
-  width: 70%;height: 50%;animation-name: animacaoborda;animation-duration: 4.5s;animation-timing-function: ease-in-out;animation-iteration-count: infinite;border-radius: 10px;
-  }
-
-@keyframes animacaoborda {
-  1% {opacity: 0.5;
-  background-color: red;
-  }
-  100% {opacity: 0.6;
-    background-color: red;
-    }
 }
 
-.box-2 {position: static;text-align: center;opacity: 0.5;
-border-radius: 10px;background-color: red;font-size: 40px;
-  }
-#subtitulo {opacity: 1.0;color: white;
+.description {
 
-  font-family: Lobster;font-size: 30px;
-  }
-
-.box-3 {padding: 30px;padding-top: 30%;padding-bottom: 40%;padding-left: 20%;opacity: 0.7;
-  border-style: solid;border-radius: 10px;background-color: white;
-  }
-
-.githubfoto {
-  width: 130px;height: 100px;border-width: 5px;border-style: solid;border-color: black;border-radius: 50%;
-  }
-
-.gmailfoto {
-  width: 130px;height: 100px;border-width: 5px;border-style: solid;border-color: black;border-radius: 50%;
-  }
-
-.linkedinfoto {
-  width: 130px;height: 100px;border-width: 5px;border-style: solid;border-color: black;border-radius: 50%;
-  }
-
-.whatsappfoto {
-  width: 130px;height: 100px;border-width: 5px;border-style: solid;border-color: black;border-radius: 50%;
-  }
-
-.githubfoto:hover {
-    width: 200px;height: 150px;animation-name: icone;animation-duration: 1.9s;animation-fill-mode: forwards;
-    }
-
-  .gmailfoto:hover {
-      width: 200px;height: 150px;animation-name: icone;animation-duration: 1.9s;animation-fill-mode: forwards;
-      }
-
-    .linkedinfoto:hover {
-        width: 200px;height: 150px;animation-name: icone;animation-duration: 1.9s;animation-fill-mode: forwards;
-        }
-
-      .whatsappfoto:hover {
-          width: 200px;height: 150px;animation-name: icone;animation-duration: 1.9s;animation-fill-mode: forwards;
-          }
-
-
-@keyframes icone {
-  1% {
-    width: 200px;height: 150px;
-    }
-  50% {
-    width: 300px;height: 170px;
-    }
-  100% {
-    width: 200px;height: 150px;
-    }
 }
 
-a {
-  text-decoration:none;
+.title-article {
+
+}
+
+#title-section {
+  
 }
