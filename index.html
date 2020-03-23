@@ -1,122 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My First Page</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Gurajada&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
+<title>Página de Tributo</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script>
+jQuery(document).ready(function($) { 
+    $(".scroll").click(function(event){        
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 900);
+   });
+});
+</script>
 </head>
 <body>
 
-<header>
-  <h4 class="title">Who is this?</h4>
+<img id="preview" src="preview-share.png">
+
+  <nav>
+<header id="início">
+Bem-vindo!
 </header>
+
+<ul id="position1">
+
+  <li id="position2">
+    <a class="link-interno scroll"  href="#Conceitos_pessoais">Conceitos Pessoais</a>
+    </li>
+    
+    <li id="position2">
+    <a class="link-interno scroll"  href="#Jornada">Jornada</a>
+      </li>
+
+      <li id="position2">
+    <a class="link-interno scroll"  href="#Tecnologias">Tecnologias</a>
+    </li>
+
+    <li id="position2">
+      <a class="link-interno scroll"  href="#Contato">Contato</a>
+      </li>
+
+</ul>
+</nav>
 
 <main>
 <p>
   <div class="space-name">  
- <h1 class="name">Lucas Vinicius Reis</h1>
+ <h1 id="name">Lucas Vinicius Reis</h1>
   </div>
-  <hr>
  </p>
 
  <p>
-<h2 class="description">Independent student for Front-end programming. I want to learn more to be Fullstack, and develop useful tools and applications for users 
-  and the community. </h2>
-  </p>
+   <div class="space-description">
+<h2 id="description">Estudante independente de programação com o objetivo de ser fullstack, podendo assim contribuir para o mercado e a comunidade de desenvolvedores.</h2>
+</div>  
+</p>
+
+<a id="btn" href="#início">Início</a>
 
 <article>
 
   <p>
-<h3 class="title-article">About my life and some concepts about the way that I see the world:</h3>
+    <div class="space-title-article">
+<h3 id="title-article">Sobre a minha vida e alguns conceitos a respeito do mundo:</h3>
+<hr>
+</div>
 </p>
 
-
 <section>
-  <div class="foto">
-    <img src="perfil.jpg" id="foto-skills">
-    </div>
-    
-<h4 id="title-section">What I think important in my life</h4>
+<div class="title-section1">
+  <h4 id="Conceitos_pessoais">O que acho importante na minha vida?</h4>
+  </div>
 <ul id="list-section">
-  <li>Be free, do it yourself and do the things you want to do.</li>
-  <li>Study, study and study.</li>
-  <li>Help other people, you will need them.</li>
-  <li>Work well in any job.</li>
-  <li>Teach, you will learn more by teaching.</li>
-  <li>Update yourself and your skills, the world always changing all the time.</li>
-  <li>Don't be prejudiced, you will lose talents and learnings.</li>
+  <li>Saúde em primeiro lugar.</li>
+  <li>Seja livre, faça você mesmo, faça o que tem vontade de fazer.</li>
+  <li>Estude e pratique, após fazer isso estude e pratique novamente</li>
+  <li>Ajude outras pessoas pois você precisará delas um dia.</li>
+  <li>Execute o trabalho com profissionalismo e corretamente independente de qual seja.</li>
+  <li>Ensine, assim você aprenderá mais.</li>
+  <li>Atualize-se, o mundo está em constante mudança.</li>
+  <li>Não seja preconceituoso, você perderá talentos e aprendizados.</li>
 </ul>
 </section>
 <br>
 
 
 <section>
-  <div class="foto2">
-    <img src="foto2.png" id="foto-skills">
-    </div>
-
-<h4 id="title-section">Other areas that I studied some years ago and now</h4>
+<div class="title-section2">
+  <h4 id="Jornada">Outras áreas que estudei alguns anos atrás e minhan jornada até aqui.</h4>
+  </div>
 <ul id="list-section">
-  <li>I did a simple computing course and it's when I learn about web design.</li>
-  <li>Biology: when I was 17, I wanted to be a biology teacher, but I took a different path.</li>
-  <li>After finishing high school, I am out of work and, at 18, finally get a job.</li>
-  <li>But some months before I start to work, initialize a technical chemistry course by 2 years, going to work and after to the class.</li>
-  <li>
-    After finishing my chemistry course, I give up working on it and recognize that design and other concepts about programming, as I said 
-    before, are my vocation.</li>
-    <li>Now I'm studying programming to be a fullstack developer and will try to connect it with other areas like health area.</li>
+  <li>Participei de um curso básico de computação no qual tive o meu primeiro contato com design para web.</li>
+  <li>Com 17 anos fui aprovado para cursar licenciatura em biologia, era uma área que comecei a gostar mas não era apaixonado então desisti.</li>
+  <li>Após terminar o ensino médio não consegui um emprego, então procurei até meus 20 anos quando conseguir o primeiro.</li>
+  <li>Antes de começar no meu primeiro emprego estudei no curso para técnico químico por 2 anos, e no meio do curso consegui o emprego.</li>
+  <li>Após terminar o curso técnico químico, pude colocar minhas idéias no lugar e concluí que realmente a área de programação era algo que eu realmente tinha vocação.</li>
+    <li>Agora que estou estudando programação e sei onde quero chegar futuramente: conciliar programação com a área da saúde e poder desenvolver hardware para auxiliar os pacientes.</li>
 </ul>
+
+<figure>
+  <img id="position-profile" src="foto2.png" alt="foto de anos atrás">
+  <br>
+  <figcaption id="description-photo2">Lucas Vinicius Reis, no laboratório.</figcaption>
+</figure>
+
 </section>
 <br>
 
 
 
 <section>
-  <div class="foto3">
-    <img src="html-css-js.png" id="foto-skills2">
+  <div class="title-section3">
+  <h4 id="Tecnologias">Algumas tecnologias que aprendi até o momento mas estou revisando, e tecnologias que pretendo aprender:</h4>
   </div>
-
-  <div class="foto4">
-    <img src="gitbash.png" id="foto-skills2">
-  </div>
-
-  <div class="foto5">
-    <img src="github.jpg" id="foto-skills2">
-  </div>
-
-  <div class="foto6">
-    <img src="frameworks.png" id="foto-skills2">
-  </div>
-
-  <div class="foto7">
-    <img src="python.jpg" id="foto-skills2">
-  </div>
-
-  <div class="foto8">
-    <img src="mongo.jpg" id="foto-skills2">
-  </div>
-  <h4 id="title-section">Tecnhnologies I learned, learning now and will learn:</h4>
-  <ul id="list-section">
-    <li>HTML (learned)</li>
-    <li>CSS (learned)</li>
-    <li>Git Bash (learning now)</li>
-    <li>Git Hub (learning now)</li>
-    <li>Javascript (learning now)</li>
-    <li>Frameworks (will learn)</li>
-    <li>Python (will learn)</li>
-    <li>MongoDB (will learn)</li>
+  
+  <ul id="list-section2">
+    <li>HTML (aprendido).</li>
+    <li>CSS (aprendido).</li>
+    <li>Javascript (em aprendizado).</li>
+    <li>GitBash (em aprendizado).</li>
+    <li>GitHub (em aprendizado).</li>
+    <li>Frameworks (aprenderei).</li>
+    <li>Python (aprenderei).</li>
+    <li>MongoDB (aprenderei).</li>
+    <li>Tem mais tecnologias porém avaliarei conforme uso de mercado.</li>
   </ul>
-</section>
 
+  <figure>
+    <img id="position-profile2" src="perfil.jpg" alt="foto de perfil">
+    <br>
+    <figcaption id="description-photo2">Lucas Vinicius Reis, 22 anos e estudante atualmente.</figcaption>
+  </figure>
+
+</section>
 </main>
 </article>
 
 <footer>
-  <h3>Contact</h3>
-  <a href="https://github.com/lucasvinireis" target="_blank">GitHub</a>
-  <a href="https://www.linkedin.com/in/lucas-reis-b47644130/" target="_blank">Linkedin</a>
+  <h3 id="Contato">Contato</h3>
+  <a id="link-externo" href="https://github.com/lucasvinireis" target="_blank">GitHub</a>
+  <a id="link-externo" href="https://www.linkedin.com/in/lucas-reis-b47644130/" target="_blank">Linkedin</a>
   <address>contato.lucasvinireis@gmail.com</address>
 </footer>
 
